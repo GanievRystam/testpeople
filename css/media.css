@@ -1,0 +1,162 @@
+@media (max-width: 1210px) {
+  .form__wrap {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    margin: 0 25px;
+  }
+  .form__input {
+    max-width: none;
+    width: 90%;
+  }
+  .form .block-range {
+    max-width: unset;
+  }
+  .form .block-range__input {
+    max-width: unset;
+  }
+  .block-range {
+    width: 90%;
+  }
+  .file-wrap {
+    display: block;
+    width: 90%;
+  }
+  .file-wrap__fake-input {
+    width: 100%;
+  }
+}
+@media (max-width: 999px) {
+  .header {
+    background-position: right;
+  }
+}
+@media (max-width: 1135px) {
+  .footer__block::after {
+    right: -25px;
+  }
+}
+@media (max-width: 1080px) {
+  .footer {
+    height: auto;
+  }
+  .footer__blocks {
+    padding-bottom: 35px;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .footer__block::after {
+    content: none;
+  }
+}
+@media (max-width: 950px) {
+  .order__head {
+    width: 90%;
+  }
+  .processes {
+    flex-direction: column;
+    gap: 85px;
+  }
+  .dots {
+    right: -20px;
+    gap: 25px;
+    bottom: -88px;
+  }
+}
+@media (max-width: 666px) {
+  .container {
+    padding: 0 10px;
+  }
+  .header {
+    height: 600px;
+  }
+  .navigation-wrap {
+    flex-direction: column;
+    gap: 12px;
+    padding-top: 24px;
+  }
+  .navigation {
+    padding: 0;
+  }
+  .offer__header {
+    padding-top: 150px;
+    font-size: 40px;
+    line-height: 47px;
+  }
+  .offer__description {
+    margin-top: 35px;
+  }
+  .offer .btns {
+    margin-top: 50px;
+    justify-content: center;
+  }
+  .form__btn {
+    width: auto;
+  }
+}
+@media (max-width: 560px) {
+  .header {
+    height: 750px;
+  }
+  .offer__items {
+    max-width: 90%;
+  }
+  .offer__subheader {
+    max-width: 90%;
+  }
+  .offer .btns {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .offer .btns .btn {
+    width: 89%;
+  }
+  .form__wrap {
+    margin: 0 25px 0 0px;
+  }
+}
+@media (max-width: 480px) {
+  .navigation__item {
+    margin-right: 10px;
+  }
+  .offer {
+    padding: 0;
+  }
+  .offer__header {
+    padding-top: 125px;
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .offer__subheader {
+    font-size: 16px;
+  }
+  .offer__item {
+    font-size: 16px;
+  }
+}
+@media (max-width: 460px) {
+  .header {
+    background-position: left;
+  }
+  .offer__header {
+    font-size: 22px;
+  }
+  .file-wrap__fake-input::after {
+    left: 25px;
+  }
+  .footer__item {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer .info {
+    flex-direction: column;
+  }
+  .footer .info__img {
+    margin: 0 auto;
+  }
+  .footer__copyright {
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */
